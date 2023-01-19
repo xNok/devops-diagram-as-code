@@ -6,8 +6,18 @@ Those diagrams are used across various blogs and articles I have written.
 
 ## Wanna Learn Diagram as Code?
 
-* [3 Diagrams as Code Tools That Combined Cover All Your Needs](https://medium.com/geekculture/3-diagram-as-code-tools-that-combined-cover-all-your-needs-8f40f57d5cd8?sk=52fe49e20d7b3a37123d07b29b102696)
+- [3 Diagrams as Code Tools That Combined Cover All Your Needs](https://medium.com/geekculture/3-diagram-as-code-tools-that-combined-cover-all-your-needs-8f40f57d5cd8?sk=52fe49e20d7b3a37123d07b29b102696)
 
 ## Wanna See Diagrams in Action?
 
-* [Building Slack Bots in Golang | Repository](https://github.com/xNok/slack-go-demo-socketmode)
+- [Building Slack Bots in Golang | Repository](https://github.com/xNok/slack-go-demo-socketmode)
+
+## Working with plantUML
+
+When working with PlantUML you should use a local server instead of the online version for privacy reason. The simplies way is to use Docker to start the server whenever you need it. I always add an alias to my `.bashrc` for that purpose.
+
+```
+alias uml="docker run -d -p 8899:8080 plantuml/plantuml-server:tomcat"
+```
+
+Then you need to install the [PlantUML vs-code extension]()

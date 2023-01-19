@@ -1,0 +1,61 @@
+@startuml kubernetes
+
+footer Kubernetes Plant-UML
+scale max 1024 width
+
+skinparam nodesep 10
+skinparam ranksep 10
+
+' Kubernetes
+!define KubernetesPuml https://raw.githubusercontent.com/dcasati/kubernetes-PlantUML/master/dist
+
+!includeurl KubernetesPuml/kubernetes_Common.puml
+!includeurl KubernetesPuml/kubernetes_Context.puml
+!includeurl KubernetesPuml/kubernetes_Simplified.puml
+
+!includeurl KubernetesPuml/OSS/KubernetesSvc.puml
+!includeurl KubernetesPuml/OSS/KubernetesPod.puml
+!includeurl KubernetesPuml/OSS/KubernetesIng.puml
+!includeurl KubernetesPuml/OSS/KubernetesSts.puml
+
+actor "User" as userAlias
+left to right direction
+
+' Kubernetes Components
+Cluster_Boundary(cluster, "Kubernetes Cluster") {
+    Namespace_Boundary(ns-nginx, "nginx") {
+        KubernetesIng(ing, "", "")
+        
+    }
+
+    Namespace_Boundary(ns-app, "app") {
+        KubernetesSvc(svc, "app-service", "")
+        KubernetesPod(pod1, "app-pod1", "")
+        KubernetesPod(pod2, "app-pod2", "")
+    }
+
+    Namespace_Boundary(ns-db, "database") {
+        KubernetesSvc(dbsvc, "database-service", "")
+        KubernetesPod(dbpod, "database-pod", "")
+    }
+
+}
+
+' User
+Rel(userAlias,ing,"", "1")
+' Service
+Rel(ing,svc,"forward request", "2")
+Rel(svc,pod1,"load Balances to Pods", "3")
+Rel(svc,pod2,"load Balances to Pods", "*")
+
+' Database
+Rel_U(pod1, dbsvc, "query content", "5")
+Rel(dbsvc, dbpod, "query content", "6")
+Rel(dbpod,dbsvc , "return content", "7")
+Rel(dbsvc, pod1 , "return content", "8")
+' return chain
+Rel(pod1, svc, "request content", "9")
+Rel(svc,ing,"return content", "10")
+Rel(userAlias, ing, "return content", "11")
+
+@enduml
