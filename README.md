@@ -8,6 +8,13 @@ Those diagrams are used across various blogs and articles I have written.
 
 * [3 Diagrams as Code Tools That Combined Cover All Your Needs](https://medium.com/geekculture/3-diagram-as-code-tools-that-combined-cover-all-your-needs-8f40f57d5cd8?sk=52fe49e20d7b3a37123d07b29b102696)
 
+* [ ] Create All Your Diagrams with the Power of Code
+
+* [ ] Create Kubernetes Diagrams with PlantUML
+* [ ] Create AWS or GCP Diagrams with PlantUML
+* [ ] Create C4 Diagrams with PlantUML
+* [ ] Keep your Repo's Diagram up to date with Gardener
+
 ## Wanna See Diagrams in Action?
 
 * [Building Slack Bots in Golang | Repository](https://github.com/xNok/slack-go-demo-socketmode)
