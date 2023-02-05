@@ -1,0 +1,26 @@
+@startuml
+
+actor user
+participant server
+participant authorisation
+database resource
+
+user -> server++: action
+server -> authorisation++: validate permision
+authorisation -> server--: validation result
+
+alt Authorisation successful
+
+    server -> resource++: fetch resource
+    resource -> server--: return result
+    server -> user: Authorisation Accepted (HTTP 200)
+
+else Authorisation failure
+
+    server -> user: Authorisation rejected (HTTP 403)
+
+
+end
+
+
+@enduml

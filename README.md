@@ -20,3 +20,9 @@ Those diagrams are used across various blogs and articles I have written.
 ## Wanna See Diagrams in Action?
 
 * [Building Slack Bots in Golang | Repository](https://github.com/xNok/slack-go-demo-socketmode)
+
+## Plantuml
+
+```
+docker run plantuml/plantuml-server
+```
