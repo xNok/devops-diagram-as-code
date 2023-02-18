@@ -11,6 +11,9 @@ Those diagrams are used across various blogs and articles I have written.
 
 * [Create All Your Diagrams with the Power of Code](https://betterprogramming.pub/how-to-create-all-your-diagrams-with-the-power-of-code-f09518125702?sk=59e395c58de05f8f73c72c6f505e2ca2)
   * My 2023 setup and how I used a combination of Escalidraw and PlantUML
+  
+* [Best Visuals for Technical Content and Why They Work](https://betterprogramming.pub/best-visuals-for-technical-content-and-why-they-work-a69b4a1362a9?sk=31655ef4ec1b341c83b55ccbd29df00f)
+  * Stock images and AI generated images do not have their place in technical blogs, An exploration of the best alternatives
 
 * [ ] Create Kubernetes Diagrams with PlantUML
 * [ ] Create AWS or GCP Diagrams with PlantUML
