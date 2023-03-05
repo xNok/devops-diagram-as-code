@@ -23,9 +23,15 @@ Those diagrams are used across various blogs and articles I have written.
 ## Wanna See Diagrams in Action?
 
 * [Building Slack Bots in Golang | Repository](https://github.com/xNok/slack-go-demo-socketmode)
+* [15 Years of DevOps: What to Expect in 2023 | Article](https://www.gologic.ca/en/15-years-of-devops-what-to-expect-in-2023/)
 
-## Plantuml
+## DevOps
 
-```
-docker run plantuml/plantuml-server
-```
+### Expending DevOps Paradigm | Excalidraw
+
+![Expending DevOps Paradigm](https://user-images.githubusercontent.com/9772542/222956551-60a3f5f4-9c47-419f-a759-0b26a0f3de50.png)
+
+
+### BizDevOps | Excalidraw
+
+![bizdevops](https://user-images.githubusercontent.com/9772542/222956702-3dbdb2af-c347-4f42-a06d-21a1500e5fa9.png)
