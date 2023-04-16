@@ -1,0 +1,32 @@
+@startuml
+skinparam rectangle<<behavior>> {
+	roundCorner 25
+}
+sprite $bProcess jar:archimate/business-process
+sprite $aService jar:archimate/application-service
+sprite $aComponent jar:archimate/application-component
+
+rectangle "Integration Testing"  as IT <<$bProcess>><<behavior>> #Business
+rectangle "System Testing" as ST<<$bProcess>><<behavior>> #Business
+rectangle "Load Testing" as LT <<$bProcess>><<behavior>> #Business
+rectangle "User acceptance Testing" as UAT <<$bProcess>><<behavior>> #Business
+rectangle "Pe-production" as PT <<$bProcess>><<behavior>> #Business
+
+IT -right->> ST
+ST-right->> LT
+LT -right->> UAT
+UAT -right->> PT
+
+rectangle "dev env" as dev <<$aService>><<behavior>> #Application
+rectangle "testing env" as sys <<$aService>><<behavior>> #Application
+rectangle "load env" as load <<$aService>><<behavior>> #Application
+rectangle "UAT env" as uat <<$aService>><<behavior>> #Application
+rectangle "Staging env" as pre <<$aService>><<behavior>> #Application
+
+IT -down->> dev
+ST -down->> sys
+LT -down->> load
+UAT -down->> uat
+PT -down->> pre
+
+@enduml
