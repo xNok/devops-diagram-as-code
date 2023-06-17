@@ -2,16 +2,20 @@
 # activate glob ignore
 shopt -s extglob
 
-FOLDER=excalidraw
+FOLDERS=(excalidraw plantuml)
 
-for f in $FOLDER/**/*
-do 
-    if [ "${f: -3}" == "svg" ]; then
-        continue 
-    fi
-    echo "Generate $f"
-    INPUT=$f
-    TYPE=$FOLDER
-    ./kroki convert $INPUT --type $TYPE
-done 
+for FOLDER in ${FOLDERS[@]}; do
+  for f in $FOLDER/**/*
+    do 
+        if [ "${f: -3}" == "svg" ]; then
+            continue 
+        fi
+        echo "Generate $f"
+        INPUT=$f
+        TYPE=$FOLDER
+        ./kroki convert $INPUT --type $TYPE
+    done 
+done
+
+
 

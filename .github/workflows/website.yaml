@@ -1,6 +1,15 @@
 name: Deploy site to GitHub Pages
 
 on:
+  pull_request:
+    # Only run when targeting main
+    branches:    
+      - main
+    types:
+      - opened
+      - edited
+      - ready_for_review
+      - synchronize
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
