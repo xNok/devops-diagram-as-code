@@ -31,16 +31,16 @@ jobs:
       HUGO_VERSION: 0.108.0
       KROKI_VERSION: 0.5.0
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
       - name: Install Kroki
         run: |
           wget -O ${{ runner.temp }}/kroki.tar.gz https://github.com/yuzutech/kroki-cli/releases/download/v${KROKI_VERSION}/kroki-cli_${KROKI_VERSION}_linux_amd64.tar.gz
           tar -xvzf ${{ runner.temp }}/kroki.tar.gz
           chmod +x kroki
-
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
 
       - name: Generate diagrams
         run: |
