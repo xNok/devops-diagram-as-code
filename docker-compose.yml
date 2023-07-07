@@ -1,0 +1,22 @@
+version: "3"
+services:
+  kroki:
+    image: yuzutech/kroki
+    depends_on:
+      - bpmn
+      - excalidraw
+    environment:
+      - KROKI_BPMN_HOST=bpmn
+      - KROKI_EXCALIDRAW_HOST=excalidraw
+    ports:
+      - "8000:8000"
+
+  bpmn:
+    image: yuzutech/kroki-bpmn
+    expose:
+      - "8003"
+
+  excalidraw:
+    image: yuzutech/kroki-excalidraw
+    expose:
+      - "8004"

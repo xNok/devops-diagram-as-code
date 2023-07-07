@@ -35,3 +35,9 @@ Those diagrams are used across various blogs and articles I have written.
 ### BizDevOps | Excalidraw
 
 ![bizdevops](https://user-images.githubusercontent.com/9772542/222956702-3dbdb2af-c347-4f42-a06d-21a1500e5fa9.png)
+
+## How The website generation works
+
+```
+docker-compose up -d
+```
