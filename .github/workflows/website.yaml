@@ -45,4 +45,5 @@ jobs:
       - name: Generate diagrams
         run: |
           docker-compose up -d
+          sleep 20
           python ./scripts/render_diagrams.py
