@@ -42,10 +42,7 @@ jobs:
           tar -xvzf ${{ runner.temp }}/kroki.tar.gz
           chmod +x kroki
 
-      - name: Start Kroki server
-        run: |
-          docker-compose up -d
-
       - name: Generate diagrams
         run: |
-          ./scripts/render_diagrams.sh
+          docker-compose up -d
+          python ./scripts/render_diagrams.py
