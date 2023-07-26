@@ -1,0 +1,3 @@
+[submodule "website/themes/liva"]
+	path = website/themes/liva
+	url = https://github.com/xNok/liva-hugo.git

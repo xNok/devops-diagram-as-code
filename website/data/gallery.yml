@@ -1,0 +1,15 @@
+enable: true
+gallery:
+- image: images/gallery/bizdevops.excalidraw.svg
+- image: images/gallery/xOps2023.excalidraw.svg
+- image: images/gallery/xOps2023_v2.excalidraw.svg
+- image: images/gallery/ephemeral_env_k8s.svg
+- image: images/gallery/kubernetes_extended.excalidraw.svg
+- image: images/gallery/kubernetes_infrastructure.excalidraw.svg
+- image: images/gallery/kubernetes_software_tooling.excalidraw.svg
+- image: images/gallery/authorizarion_layers.excalidraw.svg
+- image: images/gallery/central-auth-layer.excalidraw.svg
+- image: images/gallery/terraform-cdk-process.excalidraw.svg
+- image: images/gallery/terraform-cdk.excalidraw.svg
+- image: images/gallery/dev-envs.svg
+- image: images/gallery/authorisation.svg
