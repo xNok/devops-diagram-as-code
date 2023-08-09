@@ -1,0 +1,9 @@
+# Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
+vscode:
+  extensions:
+    - https://github.com/excalidraw/excalidraw-vscode/releases/download/v3.2.0/excalidraw-editor-3.2.0.vsix
+    
+tasks:
+  - name: Script Task
+    init: brew install hugo
+    command: echo 'start script'
