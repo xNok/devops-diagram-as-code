@@ -47,3 +47,9 @@ jobs:
           docker-compose up -d
           sleep 20
           python ./scripts/render_diagrams.py
+
+      - name: Archive rendered images
+        uses: actions/upload-artifact@v3
+        with:
+          name: images
+          path: website/static/images/gallery
