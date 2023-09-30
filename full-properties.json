@@ -1,0 +1,6534 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "page",
+      "id": "ad6ebdd6-bc9a-43f9-bd70-229a0a59ef17",
+      "created_time": "2023-09-29T23:49:00.000Z",
+      "last_edited_time": "2023-09-29T23:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-09-29T23:49:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": null
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": {
+            "start": "2023-08-07",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Go REST Guide. Gin Framework",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Go REST Guide. Gin Framework",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.jetbrains.com/go/guide/tutorials/rest_api_series/gin/"
+        }
+      },
+      "url": "https://www.notion.so/Go-REST-Guide-Gin-Framework-ad6ebdd6bc9a43f9bd70229a0a59ef17",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "e1bd774f-2311-44be-bc1d-25043d1a355e",
+      "created_time": "2023-09-29T23:49:00.000Z",
+      "last_edited_time": "2023-09-29T23:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-09-29T23:49:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": null
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": {
+            "start": "2023-07-25",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Go REST Guide. gorilla/mux Router",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Go REST Guide. gorilla/mux Router",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.jetbrains.com/go/guide/tutorials/rest_api_series/gorilla-mux/"
+        }
+      },
+      "url": "https://www.notion.so/Go-REST-Guide-gorilla-mux-Router-e1bd774f231144bebc1d25043d1a355e",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "8fdd8a33-21fb-4fbc-8f9e-02ae436c8489",
+      "created_time": "2023-09-29T23:48:00.000Z",
+      "last_edited_time": "2023-09-29T23:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-09-29T23:48:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": null
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": {
+            "start": "2023-07-15",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Go REST Guide. The Standard Library",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Go REST Guide. The Standard Library",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.jetbrains.com/go/guide/tutorials/rest_api_series/stdlib/"
+        }
+      },
+      "url": "https://www.notion.so/Go-REST-Guide-The-Standard-Library-8fdd8a3321fb4fbc8f9e02ae436c8489",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "deee4fee-44ce-4109-8a27-9208ada5c2de",
+      "created_time": "2023-09-24T10:28:00.000Z",
+      "last_edited_time": "2023-09-24T10:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-09-24T10:28:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "e57fbba9-bb9d-4ac8-a5b2-423972f2444b",
+            "name": "kosli",
+            "color": "yellow"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": "https://github.com/xNok/backstage-demo"
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": {
+            "start": "2023-09-08",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Evaluating Backstage: How Backstage Works",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Evaluating Backstage: How Backstage Works",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.kosli.com/blog/evaluating-backstage-how-backstage-works/"
+        }
+      },
+      "url": "https://www.notion.so/Evaluating-Backstage-How-Backstage-Works-deee4fee44ce41098a279208ada5c2de",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "c722df78-b83f-4da3-ae5f-4fbba8548581",
+      "created_time": "2023-08-26T15:23:00.000Z",
+      "last_edited_time": "2023-09-24T10:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-08-26T15:23:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "de632ef0-bda0-42e8-b64e-a0db117c3baf",
+            "name": "Gologic",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "SRE vs DevOps : What are the key differences? —Gologic",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "SRE vs DevOps : What are the key differences? —Gologic",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.gologic.ca/en/sre-vs-devops/"
+        }
+      },
+      "url": "https://www.notion.so/SRE-vs-DevOps-What-are-the-key-differences-Gologic-c722df78b83f4da3ae5f4fbba8548581",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "b65c7a4c-30df-488d-9459-ce70be4ce641",
+      "created_time": "2023-08-20T13:14:00.000Z",
+      "last_edited_time": "2023-08-20T13:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-08-20T13:14:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "b809c219-6c08-48bf-a0d6-83da82564f2f",
+            "name": "earthly",
+            "color": "green"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": "https://github.com/xNok/terraform-cdk-demo/tree/main"
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Infrastructure as Code Made Easy: A Beginner’s Guide to Terraform CDK",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Infrastructure as Code Made Easy: A Beginner’s Guide to Terraform CDK",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://earthly.dev/blog/iac-terraform-cdk/"
+        }
+      },
+      "url": "https://www.notion.so/Infrastructure-as-Code-Made-Easy-A-Beginner-s-Guide-to-Terraform-CDK-b65c7a4c30df488d9459ce70be4ce641",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "f835792c-4526-464b-84b1-49555b545603",
+      "created_time": "2023-06-15T22:04:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-15T22:04:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "6be2dbdd-c0f3-4030-a358-9773060a1057",
+            "name": "draft.dev",
+            "color": "purple"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Permanent vs. Ephemeral Kubernetes Environments: A Comprehensive Guide",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Permanent vs. Ephemeral Kubernetes Environments: A Comprehensive Guide",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.stakater.com/post/permanent-vs-ephemeral-kubernetes-environments-a-comprehensive-guide"
+        }
+      },
+      "url": "https://www.notion.so/Permanent-vs-Ephemeral-Kubernetes-Environments-A-Comprehensive-Guide-f835792c4526464b84b149555b545603",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "44e2359d-5714-4f74-9040-681e56729627",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3 Diagram as Code Tools That Combined Cover All Your Needs | by Alexandre Couëdelo | Geek Culture | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3 Diagram as Code Tools That Combined Cover All Your Needs | by Alexandre Couëdelo | Geek Culture | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/geekculture/3-diagram-as-code-tools-that-combined-cover-all-your-needs-8f40f57d5cd8"
+        }
+      },
+      "url": "https://www.notion.so/3-Diagram-as-Code-Tools-That-Combined-Cover-All-Your-Needs-by-Alexandre-Cou-delo-Geek-Culture--44e2359d57144f749040681e56729627",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "41689c76-6118-462c-a15f-c0247bccd2dc",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://draft.dev/learn/assets/favicon.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "6be2dbdd-c0f3-4030-a358-9773060a1057",
+            "name": "draft.dev",
+            "color": "purple"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What is Developer Experience? | Draft.dev",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What is Developer Experience? | Draft.dev",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://draft.dev/learn/what-is-developer-experience"
+        }
+      },
+      "url": "https://www.notion.so/What-is-Developer-Experience-Draft-dev-41689c766118462ca15fc0247bccd2dc",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "a1031d1d-3b0d-4f4c-aac6-af65d4cf096c",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Superheroes — Themed Scrum Retrospective | by Alexandre Couëdelo | Agile Insider | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Superheroes — Themed Scrum Retrospective | by Alexandre Couëdelo | Agile Insider | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/agileinsider/superheros-themed-scrum-retrospective-ea988b4d14e1"
+        }
+      },
+      "url": "https://www.notion.so/Superheroes-Themed-Scrum-Retrospective-by-Alexandre-Cou-delo-Agile-Insider-Medium-a1031d1d3b0d4f4caac6af65d4cf096c",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "d8cc5ab6-983a-4011-a724-a7cc9c545464",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://speedscale.com/wp-content/uploads/2021/08/favicon.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "f84e1166-886b-4c24-9b62-0d1ae5b49058",
+            "name": "speedscale",
+            "color": "red"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Using gRPC with Golang - Speedscale",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Using gRPC with Golang - Speedscale",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://speedscale.com/2022/05/03/using-grpc-with-golang/"
+        }
+      },
+      "url": "https://www.notion.so/Using-gRPC-with-Golang-Speedscale-d8cc5ab6983a4011a724a7cc9c545464",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "1e4d8b70-00cf-4204-9092-326a9afdbf0d",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "e64d0694-2424-45e5-8c7a-6ec04216d179",
+            "name": "scrapingbee",
+            "color": "pink"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What are ISP proxies? | ScrapingBee",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What are ISP proxies? | ScrapingBee",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.scrapingbee.com/blog/isp-proxy/"
+        }
+      },
+      "url": "https://www.notion.so/What-are-ISP-proxies-ScrapingBee-1e4d8b7000cf42049092326a9afdbf0d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "295b39ec-a927-423c-a355-4d4ca93ff7d6",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://cdn-cklan.nitrocdn.com/YrReRsuFxsGpWvJkqvmljTPLGThGPHEj/assets/static/optimized/rev-bf788d7/wp-content/uploads/2020/05/cropped-gologic_400_linkedin-32x32.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "de632ef0-bda0-42e8-b64e-a0db117c3baf",
+            "name": "Gologic",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Choosing the right DevOps training | GOLOGIC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Choosing the right DevOps training | GOLOGIC",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.gologic.ca/en/choosing-the-right-devops-training/"
+        }
+      },
+      "url": "https://www.notion.so/Choosing-the-right-DevOps-training-GOLOGIC-295b39eca927423ca3554d4ca93ff7d6",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "aaf038f3-dcb5-4a74-9f77-de2a0f4d903b",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Multi-Cloud is NOT the solution to the next AWS outage. | by Alexandre Couëdelo | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Multi-Cloud is NOT the solution to the next AWS outage. | by Alexandre Couëdelo | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/multi-cloud-is-not-the-solution-to-the-next-aws-outage-bb41c0b14573"
+        }
+      },
+      "url": "https://www.notion.so/Multi-Cloud-is-NOT-the-solution-to-the-next-AWS-outage-by-Alexandre-Cou-delo-FAUN-Publication-aaf038f3dcb54a749f77de2a0f4d903b",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "dd400932-f8c2-4312-a25d-548ec51429ec",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "986ecf40-2056-4657-a6b3-005a70a12a9f",
+            "name": "influxdb",
+            "color": "purple"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Getting Started with Go and InfluxDB | InfluxData",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Getting Started with Go and InfluxDB | InfluxData",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.influxdata.com/blog/getting-started-go-influxdb/"
+        }
+      },
+      "url": "https://www.notion.so/Getting-Started-with-Go-and-InfluxDB-InfluxData-dd400932f8c24312a25d548ec51429ec",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "f13fb6ba-04b7-44c0-90f1-f8f704d3015e",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction to App Manifest: A Long-Awaited Feature by Slack App Developers is Now in Beta | by Alexandre Couëdelo | Level Up Coding",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction to App Manifest: A Long-Awaited Feature by Slack App Developers is Now in Beta | by Alexandre Couëdelo | Level Up Coding",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://levelup.gitconnected.com/introduction-to-app-manifest-a-long-awaited-feature-by-slack-app-developers-is-now-in-beta-fe35e8f914ee"
+        }
+      },
+      "url": "https://www.notion.so/Introduction-to-App-Manifest-A-Long-Awaited-Feature-by-Slack-App-Developers-is-Now-in-Beta-by-Ale-f13fb6ba04b744c090f1f8f704d3015e",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "12e470b3-8b37-4f55-9633-d44620b6a13f",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://miro.medium.com/fit/c/76/76/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to Configure GitHub Environments with Terraform? | by Alexandre Couëdelo | May, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to Configure GitHub Environments with Terraform? | by Alexandre Couëdelo | May, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/p/d2b76766547b"
+        }
+      },
+      "url": "https://www.notion.so/How-to-Configure-GitHub-Environments-with-Terraform-by-Alexandre-Cou-delo-May-2022-FAUN-Publ-12e470b38b374f559633d44620b6a13f",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "5dae2ddc-9195-41f0-b0f2-c8d6ad96ce22",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to Create SSH keys with Terraform? | by Alexandre Couëdelo | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to Create SSH keys with Terraform? | by Alexandre Couëdelo | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/how-to-create-ssh-keys-with-terraform-a615dfc631c1"
+        }
+      },
+      "url": "https://www.notion.so/How-to-Create-SSH-keys-with-Terraform-by-Alexandre-Cou-delo-FAUN-Publication-5dae2ddc919541f0b0f2c8d6ad96ce22",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "bcaeb686-5abe-4e99-bd61-57eda404ed6f",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Foodies delight — Themed Scrum Retrospective | by Alexandre Couëdelo | Agile Insider | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Foodies delight — Themed Scrum Retrospective | by Alexandre Couëdelo | Agile Insider | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/agileinsider/foodies-delight-themed-scrum-retrospective-f40e0cffed1b"
+        }
+      },
+      "url": "https://www.notion.so/Foodies-delight-Themed-Scrum-Retrospective-by-Alexandre-Cou-delo-Agile-Insider-Medium-bcaeb6865abe4e99bd6157eda404ed6f",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "0f0de4ac-712c-4411-a237-36dc0192a3bb",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Implement Slack Slash Command in Golang using Socket Mode | by Alexandre Couëdelo | Level Up Coding",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Implement Slack Slash Command in Golang using Socket Mode | by Alexandre Couëdelo | Level Up Coding",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://levelup.gitconnected.com/implement-slack-slash-command-in-golang-using-socket-mode-ac693e38148c"
+        }
+      },
+      "url": "https://www.notion.so/Implement-Slack-Slash-Command-in-Golang-using-Socket-Mode-by-Alexandre-Cou-delo-Level-Up-Coding-0f0de4ac712c4411a23736dc0192a3bb",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "2648760d-d634-4530-904e-b9d0918c7bfa",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.gologic.ca/wp-content/uploads/2020/05/cropped-gologic_400_linkedin-32x32.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "de632ef0-bda0-42e8-b64e-a0db117c3baf",
+            "name": "Gologic",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What is SRE (site reliability engineer)? - GOLOGIC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What is SRE (site reliability engineer)? - GOLOGIC",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.gologic.ca/en/definition-sre/"
+        }
+      },
+      "url": "https://www.notion.so/What-is-SRE-site-reliability-engineer-GOLOGIC-2648760dd6344530904eb9d0918c7bfa",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "aaacca36-2d83-44db-8c19-aee326bf4f72",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "No Code Argument Parsing for Command-Line Interfaces | by Alexandre Couëdelo | CodeX | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "No Code Argument Parsing for Command-Line Interfaces | by Alexandre Couëdelo | CodeX | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/codex/no-code-argument-parsing-for-command-line-interfaces-79b17a3813f2"
+        }
+      },
+      "url": "https://www.notion.so/No-Code-Argument-Parsing-for-Command-Line-Interfaces-by-Alexandre-Cou-delo-CodeX-Medium-aaacca362d8344db8c19aee326bf4f72",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "bc36a5e6-f25d-4b43-9170-e34be5d00ea1",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Properly Welcome Users in Slack with Golang using Socket Mode | by Alexandre Couëdelo | Level Up Coding",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Properly Welcome Users in Slack with Golang using Socket Mode | by Alexandre Couëdelo | Level Up Coding",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://levelup.gitconnected.com/properly-welcome-users-in-slack-with-golang-using-socket-mode-9a206d30a34a"
+        }
+      },
+      "url": "https://www.notion.so/Properly-Welcome-Users-in-Slack-with-Golang-using-Socket-Mode-by-Alexandre-Cou-delo-Level-Up-Cod-bc36a5e6f25d4b439170e34be5d00ea1",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "2f915583-f9f7-4f88-8c38-2f68e8d772cb",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Corne Mechanical Keyboard BOM",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Corne Mechanical Keyboard BOM",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": null
+        }
+      },
+      "url": "https://www.notion.so/Corne-Mechanical-Keyboard-BOM-2f915583f9f74f888c382f68e8d772cb",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "4c207720-808c-43a6-9f75-172bbcec1cba",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "5 Tips to Customise Python Command-Line Interfaces | by Alexandre Couëdelo | Better Programming",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "5 Tips to Customise Python Command-Line Interfaces | by Alexandre Couëdelo | Better Programming",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://betterprogramming.pub/5-tips-to-customise-python-command-line-interfaces-691b0b39f610"
+        }
+      },
+      "url": "https://www.notion.so/5-Tips-to-Customise-Python-Command-Line-Interfaces-by-Alexandre-Cou-delo-Better-Programming-4c207720808c43a69f75172bbcec1cba",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "a4030e29-9aa9-4da9-88d3-bb6a139e3458",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://thenewstack.io/favicon.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "986ecf40-2056-4657-a6b3-005a70a12a9f",
+            "name": "influxdb",
+            "color": "purple"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Python MQTT Tutorial: Store IoT Metrics with InfluxDB – The New Stack",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Python MQTT Tutorial: Store IoT Metrics with InfluxDB – The New Stack",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://thenewstack.io/python-mqtt-tutorial-store-iot-metrics-with-influxdb/?utm_content=buffer401c3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+        }
+      },
+      "url": "https://www.notion.so/Python-MQTT-Tutorial-Store-IoT-Metrics-with-InfluxDB-The-New-Stack-a4030e299aa94da988d3bb6a139e3458",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "bb102981-f793-4ed8-9154-83946111951f",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to Provision VMs on DigitalOcean with Terraform? | by Alexandre Couëdelo | Jul, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to Provision VMs on DigitalOcean with Terraform? | by Alexandre Couëdelo | Jul, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/how-to-provision-vms-on-digitalocean-with-terraform-898515a0dbbc"
+        }
+      },
+      "url": "https://www.notion.so/How-to-Provision-VMs-on-DigitalOcean-with-Terraform-by-Alexandre-Cou-delo-Jul-2022-FAUN-Publ-bb102981f7934ed8915483946111951f",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "0711e49d-6cdd-4ff6-b306-a13b8ad559a5",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://blog.jetbrains.com/wp-content/uploads/2020/07/favicon-32x32-1.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "d55a79e6-0aef-44a8-be4c-e261b7be9f59",
+            "name": "jetbrains",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Comprehensive Guide to Testing in Go | The GoLand Blog",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Comprehensive Guide to Testing in Go | The GoLand Blog",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/"
+        }
+      },
+      "url": "https://www.notion.so/Comprehensive-Guide-to-Testing-in-Go-The-GoLand-Blog-0711e49d6cdd4ff6b306a13b8ad559a5",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "4a783c61-fa58-4889-87b9-87b49b681441",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Stop Mixing Constants With the Type String in Golang | by Alexandre Couëdelo | Better Programming",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Stop Mixing Constants With the Type String in Golang | by Alexandre Couëdelo | Better Programming",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://betterprogramming.pub/stop-mixing-constants-with-the-type-string-in-golang-d3589d8ae84d"
+        }
+      },
+      "url": "https://www.notion.so/Stop-Mixing-Constants-With-the-Type-String-in-Golang-by-Alexandre-Cou-delo-Better-Programming-4a783c61fa58488987b987b49b681441",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "ae529ee9-9979-4285-a146-3ab114f573c0",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "de632ef0-bda0-42e8-b64e-a0db117c3baf",
+            "name": "Gologic",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "CI/CD definition: how to apply it in your organization? | Gologic",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "CI/CD definition: how to apply it in your organization? | Gologic",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.gologic.ca/en/what-is-ci-cd-and-how-to-apply-it-in-your-organization/"
+        }
+      },
+      "url": "https://www.notion.so/CI-CD-definition-how-to-apply-it-in-your-organization-Gologic-ae529ee999794285a1463ab114f573c0",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "307c954b-1803-4d10-9341-47d18ee86bb0",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.gologic.ca/wp-content/uploads/2020/05/cropped-gologic_400_linkedin-32x32.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "de632ef0-bda0-42e8-b64e-a0db117c3baf",
+            "name": "Gologic",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "All about the security in the DevSecOps methodology | Gologic",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "All about the security in the DevSecOps methodology | Gologic",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.gologic.ca/en/devsecops/"
+        }
+      },
+      "url": "https://www.notion.so/All-about-the-security-in-the-DevSecOps-methodology-Gologic-307c954b18034d10934147d18ee86bb0",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "7cd65709-61d8-4b4b-89c7-e53da3f35a8d",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Christmas Time! A Split Mechanical Keyboard, You Can Build Yourself! 🎅 | by Alexandre Couëdelo | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Christmas Time! A Split Mechanical Keyboard, You Can Build Yourself! 🎅 | by Alexandre Couëdelo | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://couedeloalexandre.medium.com/christmas-time-get-a-keyboard-you-can-build-yourself-5ef27c87210c"
+        }
+      },
+      "url": "https://www.notion.so/Christmas-Time-A-Split-Mechanical-Keyboard-You-Can-Build-Yourself-by-Alexandre-Cou-delo-Me-7cd6570961d84b4b89c7e53da3f35a8d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "f933eab9-962d-41cb-9f3c-6cd04bdca912",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to Reduce Waste and Increase Productivity in Software Development? | by Alexandre Couëdelo | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to Reduce Waste and Increase Productivity in Software Development? | by Alexandre Couëdelo | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/how-to-reduce-waste-and-increase-productivity-in-software-development-f333f363f150"
+        }
+      },
+      "url": "https://www.notion.so/How-to-Reduce-Waste-and-Increase-Productivity-in-Software-Development-by-Alexandre-Cou-delo-FAU-f933eab9962d41cb9f3c6cd04bdca912",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "372c9fd8-a456-428a-a981-3b8af2e4bc6c",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://static.wixstatic.com/ficons/378e25_7f367484f3724c919f4cf8bcba47edf5~mv2.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "37282727-fe64-4c77-a84d-26a1c35f15e0",
+            "name": "stakater",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The Essentials for Building a DevSecOps Platform on Kubernetes",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The Essentials for Building a DevSecOps Platform on Kubernetes",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.stakater.com/post/the-essentials-for-building-a-devsecops-platform-on-kubernetes"
+        }
+      },
+      "url": "https://www.notion.so/The-Essentials-for-Building-a-DevSecOps-Platform-on-Kubernetes-372c9fd8a456428aa9813b8af2e4bc6c",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "58825d18-6dea-44e7-ae34-cb034df15ae8",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://miro.medium.com/fit/c/76/76/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Achieving True Security Through Zero Trust Architecture | by Alexandre Couëdelo | Oct, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Achieving True Security Through Zero Trust Architecture | by Alexandre Couëdelo | Oct, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/p/364aab80f61b"
+        }
+      },
+      "url": "https://www.notion.so/Achieving-True-Security-Through-Zero-Trust-Architecture-by-Alexandre-Cou-delo-Oct-2022-FAUN-P-58825d186dea44e7ae34cb034df15ae8",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "01bd14bd-782b-472b-9fb7-d69f839e475d",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://d3jbm9h03wxzi9.cloudfront.net/assets/favicon-4bca5727fc21fa6ee2a6ae554a6c236825acdd046c481ffce5748911f8b1f4a3.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "550d9565-dc3c-4bf9-9aea-c922afe2ba95",
+            "name": "Newsletter",
+            "color": "default"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Alex Tech Topics - DevSecOps & Value Stream Mapping - Issue #2 | Revue",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Alex Tech Topics - DevSecOps & Value Stream Mapping - Issue #2 | Revue",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.getrevue.co/profile/AlexCouedelo/issues/alex-tech-topics-devsecops-value-stream-mapping-issue-2-1398114"
+        }
+      },
+      "url": "https://www.notion.so/Alex-Tech-Topics-DevSecOps-Value-Stream-Mapping-Issue-2-Revue-01bd14bd782b472b9fb7d69f839e475d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3c52c380-d138-4c10-a149-c97e7dfd1d2d",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://miro.medium.com/fit/c/76/76/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to create Ansible Inventory with Terraform? | by Alexandre Couëdelo | May, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to create Ansible Inventory with Terraform? | by Alexandre Couëdelo | May, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/p/a32fcbe11be6"
+        }
+      },
+      "url": "https://www.notion.so/How-to-create-Ansible-Inventory-with-Terraform-by-Alexandre-Cou-delo-May-2022-FAUN-Publicati-3c52c380d1384c10a149c97e7dfd1d2d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "9dd314f9-000a-4c9c-9d0e-d4ad00c69eca",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://static.wixstatic.com/ficons/378e25_7f367484f3724c919f4cf8bcba47edf5~mv2.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "37282727-fe64-4c77-a84d-26a1c35f15e0",
+            "name": "stakater",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "8 Considerations for Choosing the Right Kubernetes Platform",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "8 Considerations for Choosing the Right Kubernetes Platform",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.stakater.com/post/8-considerations-for-choosing-the-right-kubernetes-platform"
+        }
+      },
+      "url": "https://www.notion.so/8-Considerations-for-Choosing-the-Right-Kubernetes-Platform-9dd314f9000a4c9c9d0ed4ad00c69eca",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "80f4f348-26bd-412e-a534-06650156c775",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://d3jbm9h03wxzi9.cloudfront.net/assets/favicon-4bca5727fc21fa6ee2a6ae554a6c236825acdd046c481ffce5748911f8b1f4a3.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "550d9565-dc3c-4bf9-9aea-c922afe2ba95",
+            "name": "Newsletter",
+            "color": "default"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Alex Tech Topic - DevOps ❤️ Golang - Issue #5 | Revue",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Alex Tech Topic - DevOps ❤️ Golang - Issue #5 | Revue",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.getrevue.co/profile/AlexCouedelo/issues/alex-tech-topic-devops-golang-issue-5-1475371"
+        }
+      },
+      "url": "https://www.notion.so/Alex-Tech-Topic-DevOps-Golang-Issue-5-Revue-80f4f34826bd412ea53406650156c775",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "9ba7cd2c-dfb1-4aeb-b6f4-566b81c78a8b",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Build Slack Applications in Golang using Socket Mode — Setting Up | by Alexandre Couëdelo | Geek Culture | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Build Slack Applications in Golang using Socket Mode — Setting Up | by Alexandre Couëdelo | Geek Culture | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/geekculture/build-slack-application-in-golang-using-socket-mode-setting-up-57f454e63c0a"
+        }
+      },
+      "url": "https://www.notion.so/Build-Slack-Applications-in-Golang-using-Socket-Mode-Setting-Up-by-Alexandre-Cou-delo-Geek-Cul-9ba7cd2cdfb14aebb6f4566b81c78a8b",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "b2b761d4-640d-4ec5-afd4-e0028fe4665d",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "de632ef0-bda0-42e8-b64e-a0db117c3baf",
+            "name": "Gologic",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Continuous integration vs continuous delivery vs continuous deployment | GOLOGIC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Continuous integration vs continuous delivery vs continuous deployment | GOLOGIC",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.gologic.ca/en/continuous-integration-vs-continuous-delivery-vs-continuous-deployment/"
+        }
+      },
+      "url": "https://www.notion.so/Continuous-integration-vs-continuous-delivery-vs-continuous-deployment-GOLOGIC-b2b761d4640d4ec5afd4e0028fe4665d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3ea9c2f3-e9b3-4a97-a15b-d50e3ac92386",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://blog.getcensus.com/favicon.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "c075161b-6d9b-44e6-ad1d-8c5b2c41a324",
+            "name": "census",
+            "color": "red"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "DevOps vs DataOps: Taking the dev world into data | Census",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "DevOps vs DataOps: Taking the dev world into data | Census",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://blog.getcensus.com/devops-vs-dataops-taking-lessons-from-the-dev-world-into-the-modern-data-era/"
+        }
+      },
+      "url": "https://www.notion.so/DevOps-vs-DataOps-Taking-the-dev-world-into-data-Census-3ea9c2f3e9b34a97a15bd50e3ac92386",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3f596559-cb76-4fb8-89b7-f9eaee5ee52b",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://d3jbm9h03wxzi9.cloudfront.net/assets/favicon-4bca5727fc21fa6ee2a6ae554a6c236825acdd046c481ffce5748911f8b1f4a3.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "550d9565-dc3c-4bf9-9aea-c922afe2ba95",
+            "name": "Newsletter",
+            "color": "default"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Alex Tech Topic - Diagram as Code & Alerts Thresholds- Issue #3 | Revue",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Alex Tech Topic - Diagram as Code & Alerts Thresholds- Issue #3 | Revue",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.getrevue.co/profile/AlexCouedelo/issues/alex-tech-topic-diagram-as-code-alerts-thresholds-issue-3-1429148"
+        }
+      },
+      "url": "https://www.notion.so/Alex-Tech-Topic-Diagram-as-Code-Alerts-Thresholds-Issue-3-Revue-3f596559cb764fb889b7f9eaee5ee52b",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "4180c489-bf6d-439f-b20d-a4fcd2b86b18",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://last9.io/icons/icon-96x96.png?v=617f778398f9a4df87ba66629b6f46e9"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "af46989a-cabd-4ccc-a3f6-6df0dc63494e",
+            "name": "last9",
+            "color": "green"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Static Threshold vs. Dynamic Threshold Alerting",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Static Threshold vs. Dynamic Threshold Alerting",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://last9.io/blog/static-threshold-vs-dynamic-threshold-alerting"
+        }
+      },
+      "url": "https://www.notion.so/Static-Threshold-vs-Dynamic-Threshold-Alerting-4180c489bf6d439fb20da4fcd2b86b18",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "6ce8af73-be64-4158-ab8a-9c88f6174cd2",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://blog.last9.io/assets/images/favicon.svg?v=8f933a83d3"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "af46989a-cabd-4ccc-a3f6-6df0dc63494e",
+            "name": "last9",
+            "color": "green"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Getting the big picture with Log Analysis | Last9 SRE Platform",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Getting the big picture with Log Analysis | Last9 SRE Platform",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://blog.last9.io/getting-the-big-picture-with-log-analysis/"
+        }
+      },
+      "url": "https://www.notion.so/Getting-the-big-picture-with-Log-Analysis-Last9-SRE-Platform-6ce8af73be644158ab8a9c88f6174cd2",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "25a86b66-2d3c-456f-800b-45e3919ad084",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Corne Mechanical Keyboard BOM V2",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Corne Mechanical Keyboard BOM V2",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": null
+        }
+      },
+      "url": "https://www.notion.so/Corne-Mechanical-Keyboard-BOM-V2-25a86b662d3c456f800b45e3919ad084",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "322cb659-d1b9-457f-8cf3-b213df56fcfa",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "781ca98a-09c7-44fe-8d3b-2fb89396dfe9",
+            "name": "adeva",
+            "color": "red"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The SMART Maturity Assessment Method Explained | Adeva",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The SMART Maturity Assessment Method Explained | Adeva",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://adevait.com/devops/smart-maturity-assessment"
+        }
+      },
+      "url": "https://www.notion.so/The-SMART-Maturity-Assessment-Method-Explained-Adeva-322cb659d1b9457f8cf3b213df56fcfa",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "914be644-0092-401e-b737-4e34da47295d",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "b0be3e72-8699-4092-8e34-90c10d5a3bf9",
+            "name": "containiq",
+            "color": "blue"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "EKS Monitoring | Best Practices & Tools to Use",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "EKS Monitoring | Best Practices & Tools to Use",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.containiq.com/post/eks-monitoring"
+        }
+      },
+      "url": "https://www.notion.so/EKS-Monitoring-Best-Practices-Tools-to-Use-914be6440092401eb7374e34da47295d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "d13b91ba-2f88-48ff-ac23-8d0b75434fac",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to Build a Custom Split Mechanical Keyboard: Bill of material | by Alexandre Couëdelo | Jan, 2022 | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to Build a Custom Split Mechanical Keyboard: Bill of material | by Alexandre Couëdelo | Jan, 2022 | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://couedeloalexandre.medium.com/how-to-build-a-custom-split-mechanical-keyboard-bill-of-material-b2cf1ab62fef"
+        }
+      },
+      "url": "https://www.notion.so/How-to-Build-a-Custom-Split-Mechanical-Keyboard-Bill-of-material-by-Alexandre-Cou-delo-Jan-202-d13b91ba2f8848ffac238d0b75434fac",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "1c426908-0ab4-4e84-b756-c2f5c7343ffd",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to Get Started with Chaos Engineering? - Preparing for Major Disruption | by Alexandre Couëdelo | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to Get Started with Chaos Engineering? - Preparing for Major Disruption | by Alexandre Couëdelo | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/road-map-to-choas-engineering-preparing-for-major-disruption-e5dc01c73f2c"
+        }
+      },
+      "url": "https://www.notion.so/How-to-Get-Started-with-Chaos-Engineering-Preparing-for-Major-Disruption-by-Alexandre-Cou-delo--1c4269080ab44e84b756c2f5c7343ffd",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "966782dd-ce4a-4f1a-adfa-b216c3832995",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Build Your Slack App Home in Golang Using Socket Mode | by Alexandre Couëdelo | Better Programming",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Build Your Slack App Home in Golang Using Socket Mode | by Alexandre Couëdelo | Better Programming",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://betterprogramming.pub/build-a-slack-app-home-in-golang-using-socket-mode-aff7b855bb31"
+        }
+      },
+      "url": "https://www.notion.so/Build-Your-Slack-App-Home-in-Golang-Using-Socket-Mode-by-Alexandre-Cou-delo-Better-Programming-966782ddce4a4f1aadfab216c3832995",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "a38e41d5-0a1f-42de-86e7-31ebcc7a552e",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "🔨"
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Experiment with Vagrant and Ansible — Docker Swarm for Small Self-hosted Projects | by Alexandre Couëdelo | Feb, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Experiment with Vagrant and Ansible — Docker Swarm for Small Self-hosted Projects | by Alexandre Couëdelo | Feb, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/experimenting-on-docker-swarm-with-vagrant-and-ansible-bcc2c79ba7c4"
+        }
+      },
+      "url": "https://www.notion.so/Experiment-with-Vagrant-and-Ansible-Docker-Swarm-for-Small-Self-hosted-Projects-by-Alexandre-Cou-a38e41d50a1f42de86e731ebcc7a552e",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "0b191948-0eff-403b-80c9-bbd27ebbdaa4",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Handler and Middleware Design Pattern in Golang | by Alexandre Couëdelo | CodeX | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Handler and Middleware Design Pattern in Golang | by Alexandre Couëdelo | CodeX | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://medium.com/codex/handler-and-middleware-design-pattern-in-golang-de23ec452fce"
+        }
+      },
+      "url": "https://www.notion.so/Handler-and-Middleware-Design-Pattern-in-Golang-by-Alexandre-Cou-delo-CodeX-Medium-0b1919480eff403b80c9bbd27ebbdaa4",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "0d8b1bc0-1504-4fb9-b094-08826e79d10b",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A Disposable Local Test Environment is Essential for DevOps / SysAdmin | by Alexandre Couëdelo | Feb, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A Disposable Local Test Environment is Essential for DevOps / SysAdmin | by Alexandre Couëdelo | Feb, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/a-disposable-local-test-environment-is-essential-for-devops-sysadmin-af97fa8f3db0"
+        }
+      },
+      "url": "https://www.notion.so/A-Disposable-Local-Test-Environment-is-Essential-for-DevOps-SysAdmin-by-Alexandre-Cou-delo-Feb-0d8b1bc015044fb9b09408826e79d10b",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "219d6ea8-a09e-4e22-8f67-967fb51920f5",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "emoji",
+        "emoji": "🌔"
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "💡 What is Terraform Cloud and why you might need it? | by Alexandre Couëdelo | Mar, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "💡 What is Terraform Cloud and why you might need it? | by Alexandre Couëdelo | Mar, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/what-is-terraform-cloud-and-why-you-might-need-it-c9847fb8f6e6"
+        }
+      },
+      "url": "https://www.notion.so/What-is-Terraform-Cloud-and-why-you-might-need-it-by-Alexandre-Cou-delo-Mar-2022-FAUN-Public-219d6ea8a09e4e228f67967fb51920f5",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3dd89489-7c36-48c4-9a51-94cc832a063f",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://cdn-cklan.nitrocdn.com/YrReRsuFxsGpWvJkqvmljTPLGThGPHEj/assets/static/optimized/rev-a08c3d7/wp-content/uploads/2020/05/cropped-gologic_400_linkedin-32x32.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "de632ef0-bda0-42e8-b64e-a0db117c3baf",
+            "name": "Gologic",
+            "color": "orange"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Top 10 DevSecOps tools | Gologic",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Top 10 DevSecOps tools | Gologic",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.gologic.ca/en/top-10-devsecops-tools/"
+        }
+      },
+      "url": "https://www.notion.so/Top-10-DevSecOps-tools-Gologic-3dd894897c3648c49a5194cc832a063f",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "b99760e5-daa6-41a5-8593-071861f2ae09",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "ce7c4a69-4737-475c-98d0-13cb5ec8b5e7",
+            "name": "sleuth",
+            "color": "yellow"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "DORA Metrics Best Trackers Comparison Guide [Sep 2021] | Sleuth",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "DORA Metrics Best Trackers Comparison Guide [Sep 2021] | Sleuth",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.sleuth.io/post/dora-metrics"
+        }
+      },
+      "url": "https://www.notion.so/DORA-Metrics-Best-Trackers-Comparison-Guide-Sep-2021-Sleuth-b99760e5daa641a58593071861f2ae09",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "27e0b843-1490-4f36-b114-c16602fb84fa",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Manage Static Assets with Golang | by Alexandre Couëdelo | Mar, 2021 | Medium | Medium",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Manage Static Assets with Golang | by Alexandre Couëdelo | Mar, 2021 | Medium | Medium",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://couedeloalexandre.medium.com/manage-static-assets-with-embed-golang-1-16-75c89c3eea39"
+        }
+      },
+      "url": "https://www.notion.so/Manage-Static-Assets-with-Golang-by-Alexandre-Cou-delo-Mar-2021-Medium-Medium-27e0b84314904f36b114c16602fb84fa",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "2b61e3cf-d269-4fc1-8abd-7a8fa2a094f1",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "243add63-4873-4890-bd4d-9ef37c3d2a24",
+            "name": "loft",
+            "color": "gray"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "5 Key Elements for a Great Developer Experience with Kubernetes",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "5 Key Elements for a Great Developer Experience with Kubernetes",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://loft.sh/blog/5-key-elements-for-a-great-developer-experience-with-kubernetes/"
+        }
+      },
+      "url": "https://www.notion.so/5-Key-Elements-for-a-Great-Developer-Experience-with-Kubernetes-2b61e3cfd2694fc18abd7a8fa2a094f1",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3028d5f1-921c-4e0e-8985-586ac5d0d895",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "b0be3e72-8699-4092-8e34-90c10d5a3bf9",
+            "name": "containiq",
+            "color": "blue"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Setting and Rightsizing Kubernetes Resource Limits | Best Practices",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Setting and Rightsizing Kubernetes Resource Limits | Best Practices",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.containiq.com/post/setting-and-rightsizing-kubernetes-resource-limits"
+        }
+      },
+      "url": "https://www.notion.so/Setting-and-Rightsizing-Kubernetes-Resource-Limits-Best-Practices-3028d5f1921c4e0e8985586ac5d0d895",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "4c23c33d-5636-4d74-a98b-6bbeb79e454b",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://d3jbm9h03wxzi9.cloudfront.net/assets/favicon-4bca5727fc21fa6ee2a6ae554a6c236825acdd046c481ffce5748911f8b1f4a3.ico"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "550d9565-dc3c-4bf9-9aea-c922afe2ba95",
+            "name": "Newsletter",
+            "color": "default"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Alex Tech Topics - Zero Trust Architecture & Developer Experience - Issue #1 | Revue",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Alex Tech Topics - Zero Trust Architecture & Developer Experience - Issue #1 | Revue",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://www.getrevue.co/profile/AlexCouedelo/issues/alex-tech-topics-zero-trust-architecture-developer-experience-issue-1-1396310"
+        }
+      },
+      "url": "https://www.notion.so/Alex-Tech-Topics-Zero-Trust-Architecture-Developer-Experience-Issue-1-Revue-4c23c33d56364d74a98b6bbeb79e454b",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "ac281a58-d033-4878-9c13-d54aa8dc3933",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "b809c219-6c08-48bf-a0d6-83da82564f2f",
+            "name": "earthly",
+            "color": "green"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Using Continuous Testing in DevOps Workflows - Earthly Blog",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Using Continuous Testing in DevOps Workflows - Earthly Blog",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://earthly.dev/blog/continuous-testing-in-devops/"
+        }
+      },
+      "url": "https://www.notion.so/Using-Continuous-Testing-in-DevOps-Workflows-Earthly-Blog-ac281a58d03348789c13d54aa8dc3933",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "40a10201-7eb0-46c5-a4cf-f44dd5430df6",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to Evaluate the Maturity of DevOps Practices in your Company? | by Alexandre Couëdelo | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to Evaluate the Maturity of DevOps Practices in your Company? | by Alexandre Couëdelo | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/how-to-evaluate-the-maturity-of-devops-practices-in-your-company-58a1ff7246a2"
+        }
+      },
+      "url": "https://www.notion.so/How-to-Evaluate-the-Maturity-of-DevOps-Practices-in-your-Company-by-Alexandre-Cou-delo-FAUN-Pub-40a102017eb046c5a4cff44dd5430df6",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "f122a6e4-973b-4ef8-8c00-016e84ed82cc",
+      "created_time": "2023-06-13T11:31:00.000Z",
+      "last_edited_time": "2023-08-20T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://miro.medium.com/fit/c/76/76/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "57fedf47-e462-48bd-a400-5adf88ecf008"
+      },
+      "archived": false,
+      "properties": {
+        "🟢 Projects": {
+          "id": "TmHl",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Created": {
+          "id": "U%3BPf",
+          "type": "created_time",
+          "created_time": "2023-06-13T11:31:00.000Z"
+        },
+        "Where": {
+          "id": "aU%3Fd",
+          "type": "select",
+          "select": {
+            "id": "725b44cf-928a-4ee8-9988-25850ef469cc",
+            "name": "Medium",
+            "color": "brown"
+          }
+        },
+        "Resources": {
+          "id": "pMoF",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Tags": {
+          "id": "rJiO",
+          "type": "multi_select",
+          "multi_select": []
+        },
+        "✴️ #Open Source Repositories": {
+          "id": "tmzg",
+          "type": "url",
+          "url": null
+        },
+        "🟣 Resources": {
+          "id": "vW%3Dq",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Published Date": {
+          "id": "zt%5C%7B",
+          "type": "date",
+          "date": null
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Improve your Software Development Process with Value Stream Mapping. | by Alexandre Couëdelo | Oct, 2022 | FAUN Publication",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Improve your Software Development Process with Value Stream Mapping. | by Alexandre Couëdelo | Oct, 2022 | FAUN Publication",
+              "href": null
+            }
+          ]
+        },
+        "URL": {
+          "id": "25ae7c66-90da-4a65-8ab3-03342434622b",
+          "type": "url",
+          "url": "https://faun.pub/how-to-maximise-the-value-of-your-software-development-process-91a7667896c9"
+        }
+      },
+      "url": "https://www.notion.so/Improve-your-Software-Development-Process-with-Value-Stream-Mapping-by-Alexandre-Cou-delo-Oct--f122a6e4973b4ef88c00016e84ed82cc",
+      "public_url": null
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "page_or_database",
+  "page_or_database": {}
+}
