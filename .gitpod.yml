@@ -1,0 +1,7 @@
+tasks:
+  - name: Install Hugo
+    init: brew install hugo
+  - name: Install Kroki cli
+    init: ./scripts/install_kroki.sh
+  - name: Start Kroki server
+    command: docker-compose up
