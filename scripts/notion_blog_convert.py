@@ -3,15 +3,18 @@ import os
 from dataclasses import dataclass
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-
+# Jinja template setup
 env = Environment(
-    loader=FileSystemLoader(searchpath="./"),
+    loader=FileSystemLoader("./scripts/templates"),
     autoescape=select_autoescape()
 )
+template = env.get_template("post.md.j2")
 
+# Read exported datas
 with open('./full-properties.json', 'r', encoding='utf8') as f:
     data = json.load(f)
 
+# Data structure
 class BlogParsingError:
     msg: str
     link: str
@@ -19,24 +22,25 @@ class BlogParsingError:
     def __init__(self, link, msg):
         self.msg = msg
         self.link = link
-
         print(msg)
-    
+
 class BlogItem:
     """Class for keeping track blog post"""
     title: str
+    slug: str
     date: str
     image: str
     description: str
     categories: list[str]
     tags: list[str]
-    draft: bool = True
-    type: str = "post"
+    draft: bool
+    post_type: str
 
     def from_notion(self, item):
         errors = []
 
         self.title = item["properties"]["Name"]["title"][0]["text"]["content"]
+        self.slug = item["url"].replace("https://www.notion.so/", "")
         
         if item["properties"]["Published Date"]["date"] is not None:
             self.data  = item["properties"]["Published Date"]["date"]["start"]
@@ -80,14 +84,20 @@ class BlogItem:
 
         self.tags = item["properties"]["Tags"]["multi_select"]
 
+        self.draft = True
+        self.post_type = "post"
+
         return self, errors
 
-
+# perform transformatiom
 all_errors = []
 for item in data["results"]:
     post, errors = BlogItem().from_notion(item)
     all_errors.extend(errors)
-    print(post.__dict__)
-    
+    parsed_template =template.render(post.__dict__)
 
-print([i.__dict__ for i in all_errors])
+    with open(f"./website/content/blog/{post.slug}.md", "w") as f:
+        f.write(parsed_template)
+    
+# handle errors
+# print([i.__dict__ for i in all_errors])
