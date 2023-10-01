@@ -1,6 +1,13 @@
 import requests, json
 import os
 from dataclasses import dataclass
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+
+env = Environment(
+    loader=FileSystemLoader(searchpath="./"),
+    autoescape=select_autoescape()
+)
 
 with open('./full-properties.json', 'r', encoding='utf8') as f:
     data = json.load(f)
@@ -23,7 +30,7 @@ class BlogItem:
     description: str
     categories: list[str]
     tags: list[str]
-    draft: bool = False
+    draft: bool = True
     type: str = "post"
 
     def from_notion(self, item):
@@ -46,6 +53,32 @@ class BlogItem:
                 item['url'],
                 f"Missing cover for: {self.title}"
             ))
+
+        if item["cover"] is not None:
+            self.image = item["cover"]
+        else:
+            errors.append(BlogParsingError(
+                item['url'],
+                f"Missing cover for: {self.title}"
+            ))
+
+        if len(item["properties"]["Description"]["rich_text"]) > 0:
+            self.description = item["properties"]["Description"]["rich_text"][0]["text"]["content"]
+        else:
+            errors.append(BlogParsingError(
+                item['url'],
+                f"Missing description for: {self.title}"
+            ))
+
+        if len(item["properties"]["🟣 Resources"]["relation"]) > 0:
+            self.categories = [r["id"] for r in item["properties"]["🟣 Resources"]["relation"]]
+        else:
+            errors.append(BlogParsingError(
+                item['url'],
+                f"Missing categories for: {self.title}"
+            ))
+
+        self.tags = item["properties"]["Tags"]["multi_select"]
 
         return self, errors
 

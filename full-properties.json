@@ -5,7 +5,7 @@
       "object": "page",
       "id": "ad6ebdd6-bc9a-43f9-bd70-229a0a59ef17",
       "created_time": "2023-09-29T23:49:00.000Z",
-      "last_edited_time": "2023-09-29T23:49:00.000Z",
+      "last_edited_time": "2023-10-01T14:11:00.000Z",
       "created_by": {
         "object": "user",
         "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
@@ -37,6 +37,29 @@
           "id": "aU%3Fd",
           "type": "select",
           "select": null
+        },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In this technical blog article, you will learn how to build a Golang REST API using the Gin framework. The article provides step-by-step instructions on setting up the framework, creating routes, and implementing various handler functions. By following this tutorial, you will gain knowledge and practical experience in building a REST API with Gin, as well as understanding the advantages and considerations of using web frameworks in Go development.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In this technical blog article, you will learn how to build a Golang REST API using the Gin framework. The article provides step-by-step instructions on setting up the framework, creating routes, and implementing various handler functions. By following this tutorial, you will gain knowledge and practical experience in building a REST API with Gin, as well as understanding the advantages and considerations of using web frameworks in Go development.",
+              "href": null
+            }
+          ]
         },
         "Resources": {
           "id": "pMoF",
@@ -105,7 +128,7 @@
       "object": "page",
       "id": "e1bd774f-2311-44be-bc1d-25043d1a355e",
       "created_time": "2023-09-29T23:49:00.000Z",
-      "last_edited_time": "2023-09-29T23:49:00.000Z",
+      "last_edited_time": "2023-10-01T14:10:00.000Z",
       "created_by": {
         "object": "user",
         "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
@@ -137,6 +160,29 @@
           "id": "aU%3Fd",
           "type": "select",
           "select": null
+        },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Upon reading this technical blog article, you will learn how to build a Golang REST API using the gorilla/mux router. You will explore the features of gorilla/mux, such as routing requests to specific handler functions and using subrouters for better organization. The article also covers the concept of middleware and its role in adding behaviors to API endpoints. By the end of the article, you will have a clear understanding of how to leverage gorilla/mux to create efficient and modular REST APIs in Go.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Upon reading this technical blog article, you will learn how to build a Golang REST API using the gorilla/mux router. You will explore the features of gorilla/mux, such as routing requests to specific handler functions and using subrouters for better organization. The article also covers the concept of middleware and its role in adding behaviors to API endpoints. By the end of the article, you will have a clear understanding of how to leverage gorilla/mux to create efficient and modular REST APIs in Go.",
+              "href": null
+            }
+          ]
         },
         "Resources": {
           "id": "pMoF",
@@ -205,7 +251,7 @@
       "object": "page",
       "id": "8fdd8a33-21fb-4fbc-8f9e-02ae436c8489",
       "created_time": "2023-09-29T23:48:00.000Z",
-      "last_edited_time": "2023-09-29T23:48:00.000Z",
+      "last_edited_time": "2023-10-01T14:09:00.000Z",
       "created_by": {
         "object": "user",
         "id": "38c7a546-35a3-4f9c-9765-b425534ada97"
@@ -237,6 +283,29 @@
           "id": "aU%3Fd",
           "type": "select",
           "select": null
+        },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In this technical blog article, you will learn how to build a Go REST API using the standard library. The article walks you through the basics of creating an HTTP server and routing requests, and then guides you in implementing a sample API for finding recipes. By following this tutorial, you will gain a solid understanding of building REST APIs with Go and be able to apply the concepts to your own projects.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In this technical blog article, you will learn how to build a Go REST API using the standard library. The article walks you through the basics of creating an HTTP server and routing requests, and then guides you in implementing a sample API for finding recipes. By following this tutorial, you will gain a solid understanding of building REST APIs with Go and be able to apply the concepts to your own projects.",
+              "href": null
+            }
+          ]
         },
         "Resources": {
           "id": "pMoF",
@@ -342,6 +411,11 @@
             "color": "yellow"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -361,7 +435,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -446,6 +524,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -465,7 +548,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "cbf4f5c5-057b-48f4-a91c-48cb03a47b63"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -546,6 +636,11 @@
             "color": "green"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -565,7 +660,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -646,6 +748,11 @@
             "color": "purple"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -665,7 +772,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -746,6 +860,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -765,7 +884,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -851,6 +974,11 @@
             "color": "purple"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -870,7 +998,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "84f60e91-c176-4749-bd96-d2434d4f6e01"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -951,6 +1086,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -970,7 +1110,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "e447cf97-a439-48bc-b309-f3e7d2e54096"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1056,6 +1200,11 @@
             "color": "red"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1075,7 +1224,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1156,6 +1309,11 @@
             "color": "pink"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1175,7 +1333,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1261,6 +1423,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1280,7 +1447,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1361,6 +1532,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1380,7 +1556,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1461,6 +1644,11 @@
             "color": "purple"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1480,7 +1668,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1561,6 +1753,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1580,7 +1777,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "97555aa0-039c-4023-a2d7-bc79cfe8a741"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1666,6 +1867,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1685,7 +1891,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1771,6 +1984,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1790,7 +2008,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1871,6 +2096,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1890,7 +2120,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "e447cf97-a439-48bc-b309-f3e7d2e54096"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -1971,6 +2205,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -1990,7 +2229,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "97555aa0-039c-4023-a2d7-bc79cfe8a741"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2076,6 +2319,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2095,7 +2343,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2176,6 +2428,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2195,7 +2452,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2276,6 +2537,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2295,7 +2561,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "97555aa0-039c-4023-a2d7-bc79cfe8a741"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2376,6 +2646,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2395,7 +2670,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2476,6 +2755,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2495,7 +2779,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2581,6 +2869,11 @@
             "color": "purple"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2600,7 +2893,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2686,6 +2983,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2705,7 +3007,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2791,6 +3100,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2810,7 +3124,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2891,6 +3209,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -2910,7 +3233,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "b26e2da1-ea26-4932-804f-ca7e78bb6b1a"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -2991,6 +3318,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3010,7 +3342,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3096,6 +3432,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3115,7 +3456,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "17f67967-d15c-480a-ad34-ad500e5fedb0"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3196,6 +3544,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3215,7 +3568,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3296,6 +3653,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3315,7 +3677,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3401,6 +3767,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3420,7 +3791,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "17f67967-d15c-480a-ad34-ad500e5fedb0"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3506,6 +3884,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3525,7 +3908,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "17f67967-d15c-480a-ad34-ad500e5fedb0"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3611,6 +4001,11 @@
             "color": "default"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3630,7 +4025,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "84f60e91-c176-4749-bd96-d2434d4f6e01"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3716,6 +4118,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3735,7 +4142,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3821,6 +4235,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3840,7 +4259,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -3926,6 +4352,11 @@
             "color": "default"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -3945,7 +4376,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4026,6 +4461,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4045,7 +4485,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "97555aa0-039c-4023-a2d7-bc79cfe8a741"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4126,6 +4570,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4145,7 +4594,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4231,6 +4684,11 @@
             "color": "red"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4250,7 +4708,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4336,6 +4798,11 @@
             "color": "default"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4355,7 +4822,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4441,6 +4912,11 @@
             "color": "green"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4460,7 +4936,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4546,6 +5026,11 @@
             "color": "green"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4565,7 +5050,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4646,6 +5135,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4665,7 +5159,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4746,6 +5244,11 @@
             "color": "red"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4765,7 +5268,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4846,6 +5353,11 @@
             "color": "blue"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4865,7 +5377,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -4946,6 +5462,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -4965,7 +5486,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5046,6 +5571,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5065,7 +5595,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5146,6 +5683,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5165,7 +5707,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "97555aa0-039c-4023-a2d7-bc79cfe8a741"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5249,6 +5795,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5268,7 +5819,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5349,6 +5907,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5368,7 +5931,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "97555aa0-039c-4023-a2d7-bc79cfe8a741"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5449,6 +6016,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5468,7 +6040,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5552,6 +6131,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5571,7 +6155,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5657,6 +6248,11 @@
             "color": "orange"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5676,7 +6272,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "17f67967-d15c-480a-ad34-ad500e5fedb0"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5757,6 +6360,11 @@
             "color": "yellow"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5776,7 +6384,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5857,6 +6469,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5876,7 +6493,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "97555aa0-039c-4023-a2d7-bc79cfe8a741"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -5957,6 +6578,11 @@
             "color": "gray"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -5976,7 +6602,14 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            },
+            {
+              "id": "fd0feca1-cb7f-49d4-b352-9c4f0136083e"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -6057,6 +6690,11 @@
             "color": "blue"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -6076,7 +6714,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -6162,6 +6804,11 @@
             "color": "default"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -6181,7 +6828,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -6262,6 +6913,11 @@
             "color": "green"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -6281,7 +6937,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -6362,6 +7022,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -6381,7 +7046,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
@@ -6467,6 +7136,11 @@
             "color": "brown"
           }
         },
+        "Description": {
+          "id": "hJzB",
+          "type": "rich_text",
+          "rich_text": []
+        },
         "Resources": {
           "id": "pMoF",
           "type": "relation",
@@ -6486,7 +7160,11 @@
         "🟣 Resources": {
           "id": "vW%3Dq",
           "type": "relation",
-          "relation": [],
+          "relation": [
+            {
+              "id": "235cbad2-a933-4bf3-901f-822ff745f227"
+            }
+          ],
           "has_more": false
         },
         "Published Date": {
