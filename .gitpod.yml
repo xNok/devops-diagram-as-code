@@ -1,6 +1,10 @@
 tasks:
   - name: Install Hugo
-    init: brew install hugo
+    init: |
+      git submodule init
+      git submodule update
+      brew install hugo
+    command: cd website && hugo serve
   - name: Install Kroki cli
     init: ./scripts/install_kroki.sh
   - name: Start Kroki server
