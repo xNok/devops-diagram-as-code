@@ -1,7 +1,7 @@
 ---
 title: "3 Diagram as Code Tools That Combined Cover All Your Needs | by Alexandre Couëdelo | Geek Culture | Medium"
 date: 
-draft: True
+draft: False
 
 # post thumb
 image: ""
@@ -15,7 +15,7 @@ categories:
 tags:
 
 # post type
-type: "post"
+type: "featured"
 ---
 
 # 3 Diagram as Code Tools That Combined Cover All Your Needs | by Alexandre Couëdelo | Geek Culture | Medium

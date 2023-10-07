@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 languageCode = "en-us"
-title = "Liva | Personal blog template"
+title = "Alexandre Couedelo | Personal Gallery"
 theme = "liva"
 summaryLength = "10"
 paginate = 6
@@ -54,10 +54,11 @@ name = "Post"
 URL = "blog/"
 weight = 2
 
-[[menu.main]]
-name = "Contact"
-URL = "contact/"
-weight = 3
+# I don't plan to use contact form
+#[[menu.main]]
+#name = "Contact"
+#URL = "contact/"
+#weight = 3
 
 # footer menu
 [[menu.footer]]
@@ -70,10 +71,11 @@ name = "Post"
 URL = "blog/"
 weight = 2
 
-[[menu.footer]]
-name = "Contact"
-URL = "contact/"
-weight = 3
+# I don't plan to use contact form
+#[[menu.footer]]
+#name = "Contact"
+#URL = "contact/"
+#weight = 3
 
 
 #################### default parameters ################################

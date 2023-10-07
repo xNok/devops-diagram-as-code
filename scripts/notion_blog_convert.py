@@ -83,9 +83,12 @@ class BlogItem:
             ))
 
         self.tags = item["properties"]["Tags"]["multi_select"]
+        if len(self.tags) == 0 :
+            self.tags = ["default"]
 
-        self.draft = True
         self.post_type = "post"
+        # As long as there are errors the post stays a draft
+        self.draft = len(errors) != 0
 
         return self, errors
 
