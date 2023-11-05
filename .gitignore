@@ -1,3 +1,4 @@
 kroki
 *.svg
 README.adoc
+.env
