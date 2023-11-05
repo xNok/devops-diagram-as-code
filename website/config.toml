@@ -1,133 +1,132 @@
-######################## default configuration ####################
+# default configuration
 baseURL = "/"
 languageCode = "en-us"
-title = "Alexandre Couedelo | Personal Gallery"
-theme = "liva"
+theme = "thomson"
+title = "Thomson-Minimal Hugo Portfolio Temaplate"
 summaryLength = "10"
-paginate = 6
-disqusShortname = ""
+paginate = 4
 
-[outputs]
-home = ["HTML", "RSS", "JSON"]
-
-############################# Plugins ##############################
-[params.plugins]
-
-# CSS Plugins
+# css plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-URL = "plugins/slick/slick.css"
+link = "plugins/themify/css/themify-icons.css"
 [[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+link = "plugins/owl-carousel/owl.carousel.min.css"
 [[params.plugins.css]]
-URL = "plugins/venobox/venobox.css"
-
-# JS Plugins
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-URL = "plugins/venobox/venobox.min.js"
-[[params.plugins.js]]
-URL = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-URL = "plugins/search/mark.js"
-[[params.plugins.js]]
-URL = "plugins/search/search.js"
+link = "plugins/owl-carousel/owl.theme.default.min.css"
+[[params.plugins.css]]
+link = "plugins/animated-text/animated-text.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
 
 
-############################## navigation ###############################
-[menu]
+# js plugin
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/owl-carousel/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/animated-text/animated-text.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/magnific-popup.min.js"
 
-# main menu
+
+# menu
 [[menu.main]]
-name = "About"
-URL = "about/"
+name = "Home"
+url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Post"
-URL = "blog/"
-weight = 2
-
-# I don't plan to use contact form
-#[[menu.main]]
-#name = "Contact"
-#URL = "contact/"
-#weight = 3
-
-# footer menu
-[[menu.footer]]
 name = "About"
-URL = "about/"
-weight = 1
-
-[[menu.footer]]
-name = "Post"
-URL = "blog/"
+url = "about"
 weight = 2
 
-# I don't plan to use contact form
-#[[menu.footer]]
-#name = "Contact"
-#URL = "contact/"
-#weight = 3
+[[menu.main]]
+name = "Blog"
+url = "blog"
+weight = 3
+
+[[menu.main]]
+name = "Portfolio"
+url = "portfolio"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+[[menu.main]]
+name = "Dropdown"
+url = "#"
+weight = 6
+
+  [[menu.main]]
+  parent = "Dropdown"
+  name = "Child 1"
+  url = "#"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Dropdown"
+  name = "Child 2"
+  url = "#"
+  weight = 2
 
 
-#################### default parameters ################################
+
+# default parameters
 [params]
-logo = "images/logo.png"
 home = "Home"
-# Meta data
+logo = "images/logo.png"
+# contact info
+mobile = "+880 2544 658 256"
+email = "steve.fruits@email.com"
+address = "125/A, CA Commercial Area, California, USA"
+# meta description
+author = "themefisher"
 description = "This is meta description"
-author = "Themefisher"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-# Contact Information
-# mobile = "0124857985320"
-# email = "demo@email.com"
-# location = "Dhaka, Bangladedsh"
+# google analitycs
+google_analitycs_id = ""
+# contact form action 
+contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "| copyright &copy; 2023 - All Rights Reserved |"
+copyright = "Copyrighht &copy; 2020 a theme by [themefisher](https://themefisher.com)"
 
-# Preloader
+# preloader
 [params.preloader]
 enable = true
-preloader = "" # use .png , .svg or .gif format
+preloader = "" # use png, jpg, svg or gif format
 
-# search
-[params.search]
+# google map
+[params.gmap]
 enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
 
-############################ news letter ########################
-[params.newsletter]
-enable = true
-title = "Join My Newsletter"
-content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
-
-
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
-
-
-############################# social site ########################
+# social site
 [[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/AlexCouedelo"
+icon = "ti-facebook"
+link = "#"
 
 [[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/xNok"
+icon = "ti-instagram"
+link = "#"
 
 [[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/in/alexandre-couedelo/"
+icon = "ti-dribbble"
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"

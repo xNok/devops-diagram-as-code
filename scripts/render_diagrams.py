@@ -3,7 +3,7 @@ import subprocess
 import shutil
 import yaml
 
-gallery_path="website/static/images/gallery"
+gallery_path="website/static/images/portfolio"
 gallery_data_path="website/data/gallery.yml"
 
 gallery_config = {
