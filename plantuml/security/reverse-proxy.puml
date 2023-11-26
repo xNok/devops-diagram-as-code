@@ -1,0 +1,26 @@
+@startuml test
+
+!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/components
+!includeurl Devops/docker.puml
+!includeurl Devops/caddy.puml
+!includeurl Devops/common.puml
+
+!define DevopsSprites https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+!includeurl DevopsSprites/developer_happy.puml
+
+DockerContainer(portainer, "Portainer")
+CaddyServer(caddy, "name")
+
+DockerContainer(app1, "App")
+DockerContainer(app2, "App")
+
+caddy --> portainer
+caddy --> app1
+caddy --> app2
+
+DEVOPS_DEVELOPER_HAPPY(Blue, 1, dev, rectangle)
+DEVOPS_DOCKER_LOGO(Blue, 1, docker, rectangle)
+
+dev -> caddy
+
+@enduml
