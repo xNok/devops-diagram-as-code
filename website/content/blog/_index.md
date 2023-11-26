@@ -1,11 +1,5 @@
 ---
-title: "blog"
-date: 2019-10-29T13:49:23+06:00
-draft: false
-
-# meta description
-description: "this is meta description"
-
-# type
-type : "blog"
+title: "Blog"
+date: 2019-05-12T12:14:34+06:00
+description: "This is meta description."
 ---

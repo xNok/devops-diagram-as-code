@@ -1,0 +1,18 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "tinacms": "tinacms build",
+    "build": "tinacms build && hugo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.31",
+    "tinacms": "^1.5.22"
+  }
+}

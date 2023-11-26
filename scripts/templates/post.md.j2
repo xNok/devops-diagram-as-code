@@ -1,0 +1,26 @@
+---
+title: "{{ title }}"
+date: {{ date }}
+draft: {{ draft }}
+
+# post thumb
+image: "{{ image }}"
+
+# meta description
+description: "{{ description }}"
+
+# taxonomies
+categories:
+{%- for category in categories %}
+  - {{ category -}}
+{% endfor %}
+tags:
+{%- for tag in tags %}
+  - {{ tag -}}
+{% endfor %}
+
+# post type
+type: "{{ post_type }}"
+---
+
+# {{ title }}
