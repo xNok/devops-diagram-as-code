@@ -9,15 +9,7 @@
 DockerContainer(portainer, "Portainer")
 CaddyServer(caddy, "name")
 
-DockerContainer(app1, "App")
-DockerContainer(app2, "App")
-
-HappyDeveloper(dev, "You")
-
-caddy --> portainer
-caddy --> app1
-caddy --> app2
-
-dev -> caddy
+HappyDeveloper(dev, "Happy Dev")
+EvilDeveloper(dev2, "Evil Dev")
 
 @enduml
