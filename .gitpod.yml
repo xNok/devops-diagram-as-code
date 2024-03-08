@@ -2,10 +2,8 @@
 tasks:
   - name: Install Hugo
     init: |
-      git submodule init
-      git submodule update
+      git -c url.https://github.com/.insteadOf=git@github.com: submodule update --init --remote --recursive
       brew install hugo
-      git config --global url."https://github.com/".insteadOf git@github.com:
     command: cd website && hugo server -D -F --baseURL $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
   - name: Install Kroki cli
     init: ./scripts/install_kroki.sh
