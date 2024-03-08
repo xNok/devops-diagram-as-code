@@ -1,3 +1,4 @@
+
 tasks:
   - name: Install Hugo
     init: |
@@ -9,3 +10,6 @@ tasks:
     init: ./scripts/install_kroki.sh
   - name: Start Kroki server
     command: docker-compose up
+vscode:
+  extensions:
+    - jebbs.plantuml

@@ -1,0 +1,36 @@
+enable: true
+gallery:
+- image: images/gallery/backstage-accountability-vs-discoverability.excalidraw.svg
+- image: images/gallery/backstage-architecture.excalidraw.svg
+- image: images/gallery/backstage-backend-plugins.excalidraw.svg
+- image: images/gallery/trustmodel.excalidraw.svg
+- image: images/gallery/bizdevops.excalidraw.svg
+- image: images/gallery/devops-2024-challenges_1.excalidraw.svg
+- image: images/gallery/devops-2024-challenges_2.excalidraw.svg
+- image: images/gallery/devops-2024-challenges_3.excalidraw.svg
+- image: images/gallery/xOps2023.excalidraw.svg
+- image: images/gallery/xOps2023_v2.excalidraw.svg
+- image: images/gallery/ephemeral_env_k8s.svg
+- image: images/gallery/kubernetes_extended.excalidraw.svg
+- image: images/gallery/kubernetes_infrastructure.excalidraw.svg
+- image: images/gallery/kubernetes_observability.excalidraw.svg
+- image: images/gallery/kubernetes_software_tooling.excalidraw.svg
+- image: images/gallery/security-and-compliance.excalidraw.svg
+- image: images/gallery/0-devsecops-pipeline-security.excalidraw.svg
+- image: images/gallery/0b-devsecops-pipeline-security.excalidraw.svg
+- image: images/gallery/1-version-control-trust-model.excalidraw.svg
+- image: images/gallery/2-ci-pipelines-trust-model.excalidraw.svg
+- image: images/gallery/3-cd-pipelines-trust-model.excalidraw.svg
+- image: images/gallery/5-devsecops-secret-management.excalidraw.svg
+- image: images/gallery/6-devsecops-artefact-security.excalidraw.svg
+- image: images/gallery/authorizarion_layers.excalidraw.svg
+- image: images/gallery/central-auth-layer.excalidraw.svg
+- image: images/gallery/developer-productivity-engineering-goals.excalidraw.svg
+- image: images/gallery/developer-productivity-engineering.excalidraw.svg
+- image: images/gallery/terraform-cdk-process.excalidraw.svg
+- image: images/gallery/terraform-cdk.excalidraw.svg
+- image: images/gallery/platform_engineering_2.excalidraw.svg
+- image: images/gallery/dev-envs.svg
+- image: images/gallery/authorisation.svg
+- image: images/gallery/reverse-proxy.svg
+- image: images/gallery/sprites.svg

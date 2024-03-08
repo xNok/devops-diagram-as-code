@@ -8,6 +8,8 @@ services:
     environment:
       - KROKI_BPMN_HOST=bpmn
       - KROKI_EXCALIDRAW_HOST=excalidraw
+      # otherwise kroki doesn't download custom library.
+      - KROKI_SAFE_MODE=unsafe
     ports:
       - "8000:8000"
 

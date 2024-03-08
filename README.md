@@ -41,3 +41,17 @@ Those diagrams are used across various blogs and articles I have written.
 ```
 docker-compose up -d
 ```
+
+Generating the images
+
+```
+python ./scripts/render_diagrams.py
+```
+
+### PlantUML local dev
+
+Use a local PlantUML server with the VSCode extension for PlantUML.
+
+```
+alias uml="docker run -d -p 8899:8080 plantuml/plantuml-server:tomcat"
+```
