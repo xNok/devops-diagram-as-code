@@ -26,7 +26,7 @@ export default defineConfig({
         format: "md",
         label: "Post",
         name: "post",
-        path: "exampleSite/content/blog",
+        path: "content/blog",
         frontmatterFormat: "yaml",
         match: {
           include: "*",
@@ -46,7 +46,7 @@ export default defineConfig({
         format: "md",
         label: "Portfolio",
         name: "portfolio",
-        path: "exampleSite/content/portfolio",
+        path: "content/portfolio",
         frontmatterFormat: "yaml",
         match: {
           include: "*",
@@ -70,7 +70,7 @@ export default defineConfig({
         format: "md",
         label: "About",
         name: "about",
-        path: "exampleSite/content/about",
+        path: "content/about",
         frontmatterFormat: "yaml",
         match: {
           include: "*",
@@ -94,7 +94,7 @@ export default defineConfig({
         format: "yml",
         label: "Data",
         name: "data",
-        path: "exampleSite/data",
+        path: "data",
         frontmatterFormat: "yaml",
         match: {
           include: "*",
@@ -113,7 +113,7 @@ export default defineConfig({
         format: "md",
         label: "Contact",
         name: "contact",
-        path: "exampleSite/content/contact",
+        path: "content/contact",
         frontmatterFormat: "yaml",
         match: {
           include: "*",

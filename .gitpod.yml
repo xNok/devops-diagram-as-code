@@ -5,11 +5,19 @@ tasks:
       git submodule init
       git submodule update
       brew install hugo
-    command: cd website && hugo server
+      git config --global url."https://github.com/".insteadOf git@github.com:
+    command: cd website && hugo server -D -F --baseURL $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
   - name: Install Kroki cli
     init: ./scripts/install_kroki.sh
   - name: Start Kroki server
     command: docker-compose up
+
+# extentions for the diagrams mostly
 vscode:
   extensions:
     - jebbs.plantuml
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 1313
+    onOpen: open-preview

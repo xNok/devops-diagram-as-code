@@ -38,6 +38,8 @@ Those diagrams are used across various blogs and articles I have written.
 
 ## How The website generation works
 
+Starting the Kroki server. Kroki is in charge of rendering all images.
+
 ```
 docker-compose up -d
 ```
@@ -55,3 +57,7 @@ Use a local PlantUML server with the VSCode extension for PlantUML.
 ```
 alias uml="docker run -d -p 8899:8080 plantuml/plantuml-server:tomcat"
 ```
+
+### Hugo on Gitpod
+
+[Gitpod hugo Template](https://github.com/gitpod-io/template-hugo/tree/main)
