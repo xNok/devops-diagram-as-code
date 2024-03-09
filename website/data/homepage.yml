@@ -1,6 +1,6 @@
 ####################### banner ########################
 banner:
-  enable : true
+  enable : false
   title : "I provide"
   animated_text:
     - "Design solutions."
@@ -14,7 +14,7 @@ portfolio:
 
 ###################### Service ########################
 service:
-  enable : true
+  enable : false
   title : "Core Services."
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic
           odit a sit laboriosam voluptatem in, blanditiis."

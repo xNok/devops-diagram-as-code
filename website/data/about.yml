@@ -1,6 +1,6 @@
 ###################### About ##########################
 author:
-  enable : true
+  enable : false
   image : "images/about-img.jpg"
   name : "Jems Smith"
   bio : "I create premium designs and technology"
@@ -14,7 +14,7 @@ author:
 
 #################### Experience #######################
 experience:
-  enable : true
+  enable : false
   title : "Work Experiences."
   experience_item:
     # experience item
@@ -40,7 +40,7 @@ experience:
 
 ###################### skill ############################
 skill:
-  enable : true
+  enable : false
   title : "My skills."
   skillbar:
     # skillbar loop

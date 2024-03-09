@@ -2,7 +2,7 @@
 baseURL = "/"
 languageCode = "en-us"
 theme = "thomson"
-title = "Thomson-Minimal Hugo Portfolio Temaplate"
+title = "Diagrams and Article Portfolio"
 summaryLength = "10"
 paginate = 4
 
@@ -39,67 +39,49 @@ link = "plugins/magnific-popup/magnific-popup.min.js"
 
 
 # menu
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+# [[menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 1
 
-[[menu.main]]
-name = "About"
-url = "about"
-weight = 2
+# [[menu.main]]
+# name = "Portfolio"
+# url = "portfolio"
+# weight = 2
 
-[[menu.main]]
-name = "Blog"
-url = "blog"
-weight = 3
+# [[menu.main]]
+# name = "Blog"
+# url = "blog"
+# weight = 3
 
-[[menu.main]]
-name = "Portfolio"
-url = "portfolio"
-weight = 4
+# [[menu.main]]
+# name = "About"
+# url = "about"
+# weight = 4
 
-[[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 5
-
-[[menu.main]]
-name = "Dropdown"
-url = "#"
-weight = 6
-
-  [[menu.main]]
-  parent = "Dropdown"
-  name = "Child 1"
-  url = "#"
-  weight = 1
-
-  [[menu.main]]
-  parent = "Dropdown"
-  name = "Child 2"
-  url = "#"
-  weight = 2
-
+# [[menu.main]]
+# name = "Contact"
+# url = "contact"
+# weight = 5
 
 
 # default parameters
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/panda.jpg"
 # contact info
-mobile = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+# mobile = "+880 2544 658 256"
+# email = "steve.fruits@email.com"
+# address = "125/A, CA Commercial Area, California, USA"
 # meta description
-author = "themefisher"
+author = "Alexandre Couedelo"
 description = "This is meta description"
 # google analitycs
-google_analitycs_id = ""
+google_analitycs_id = "G-XP4VZQFWF2"
 # contact form action 
-contact_form_action = "#" # contact form works with : https://formspree.io
+# contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "Copyrighht &copy; 2020 a theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright © 2024 MekitMedia. All Rights Reserved."
 
 # preloader
 [params.preloader]
@@ -108,25 +90,21 @@ preloader = "" # use png, jpg, svg or gif format
 
 # google map
 [params.gmap]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+enable = false
+# gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+# map_latitude = "51.5223477"
+# map_longitude = "-0.1622023"
+# map_marker = "images/marker.png"
 
 # social site
 [[params.social]]
-icon = "ti-facebook"
-link = "#"
-
-[[params.social]]
-icon = "ti-instagram"
-link = "#"
-
-[[params.social]]
-icon = "ti-dribbble"
-link = "#"
-
-[[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/AlexCouedelo"
+
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=alexandre-couedelo"
+
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/xNok"
