@@ -13,6 +13,7 @@ export default defineConfig({
   build: {
     outputFolder: "admin",
     publicFolder: "static",
+    basePath: "devops-diagram-as-code",
   },
   media: {
     tina: {
