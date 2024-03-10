@@ -1,11 +1,15 @@
 ---
-title: "DevSecOps & CI/CD pipelines"
 image: "images/portfolio/0-devsecops-pipeline-security.excalidraw.svg"
+category: "security"
+
+# Metadata
+title: "DevSecOps & CI/CD pipelines"
+project_url: "https://www.gologic.ca/en/devsecops-ci-cd/"
 client: "Gologic"
 year: "2024"
-description: "This is meta description."
-category: "DevSecOps"
-project_url: "https://www.gologic.ca/en/devsecops-ci-cd/"
+description: "Introduction to CI/CD Security"
+
+# Workflow
 type: "portfolio"
 draft: false
 ---
