@@ -60,6 +60,7 @@ export default defineConfig({
             description: "This is the markdown body",
             isBody: true,
           },
+          ...portfolioFields()
         ],
         ui: {
           allowedActions: {
