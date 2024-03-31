@@ -41,6 +41,11 @@ export function portfolioFields() {
       name: "type",
       label: "type",
     },
+    {
+      type: "boolean",
+      name: "draft",
+      label: "draft",
+    },
   ] as TinaField[];
 }
 export function postFields() {
