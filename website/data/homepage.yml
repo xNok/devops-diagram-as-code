@@ -1,12 +1,12 @@
 ####################### banner ########################
 banner:
-  enable : false
-  title : "I provide"
+  enable : true
+  title : "I transform"
   animated_text:
-    - "Design solutions."
-    - "Creative Ideas."
-    - "Professional Content."
-  content : "I must explain to you how all this mistaken idea of denouncing pleasure and praising pain <br>was born and I will give you a complete account of the system"
+    - "Vision into Impactful Diagrams."
+    - "Creative Ideas into Visuals."
+    - "Content into Experiences."
+  content : "Welcome to my visual article portfolio, where I've crafted hundreds of tech articles, each uniquely designed to captivate and enlighten. My goal is to deliver content that stands out, not just through compelling writing but with engaging visuals that make every piece memorable and informative. Explore a world where technology meets creativity, and every article is a journey full of discovery"
 
 ###################### Portfolio ######################
 portfolio:

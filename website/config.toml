@@ -39,15 +39,15 @@ link = "plugins/magnific-popup/magnific-popup.min.js"
 
 
 # menu
-# [[menu.main]]
-# name = "Home"
-# url = "/"
-# weight = 1
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-# [[menu.main]]
-# name = "Portfolio"
-# url = "portfolio"
-# weight = 2
+[[menu.main]]
+name = "Portfolio"
+url = "portfolio"
+weight = 2
 
 # [[menu.main]]
 # name = "Blog"
@@ -68,14 +68,14 @@ link = "plugins/magnific-popup/magnific-popup.min.js"
 # default parameters
 [params]
 home = "Home"
-logo = "images/panda.jpg"
+logo = "images/panda_64.jpg"
 # contact info
 # mobile = "+880 2544 658 256"
 # email = "steve.fruits@email.com"
 # address = "125/A, CA Commercial Area, California, USA"
 # meta description
 author = "Alexandre Couedelo"
-description = "This is meta description"
+description = "Discover my visual article portfolio spanning over DevOps, Security and platform. With dozens of uniquely crafted tech articles, each piece combines engaging writing with captivating visuals to inform and inspire."
 # google analitycs
 google_analitycs_id = "G-XP4VZQFWF2"
 # contact form action 
